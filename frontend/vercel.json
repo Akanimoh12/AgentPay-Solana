@@ -1,5 +1,5 @@
 {
-  "installCommand": "cd ../sdk && npm install && npx tsup && cd ../frontend && npm install",
+  "installCommand": "cd ../sdk && pnpm install && pnpm run build && cd ../frontend && pnpm install",
   "buildCommand": "npx next build",
   "framework": "nextjs"
 }
